@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
  
 def hello():
-    return "<h1>Sample Python WebApp CI/CD demo!!!!!</h1>"
+    return "<h1>Sample Python WebApp CI/CD demo --- New Version!!!!!</h1>"
  
 if __name__ == "__main__":
     
