@@ -1,0 +1,14 @@
+name: Test Pipeline1
+on: push
+
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Step1
+      run: echo "Step1 executed"
+
+    - name: Stpe2
+      run: echo "Step2 Executed"
